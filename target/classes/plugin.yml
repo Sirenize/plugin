@@ -1,0 +1,8 @@
+name: SpawnstealPlugin2
+version: 1.0
+main: plugin.plugin.Plugin
+api-version: 1.14
+commands:
+  givescythe:
+    description: debug
+    usage: /<command>
