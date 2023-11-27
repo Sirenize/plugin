@@ -23,7 +23,6 @@ public class DeathEvents implements Listener {
     }
 
     private boolean isDragonPreviouslyKilled(EnderDragon enderDragon) {
-        // Use DragonBattle interface's hasBeenPreviouslyKilled method
         return enderDragon.getDragonBattle() != null && enderDragon.getDragonBattle().hasBeenPreviouslyKilled();
     }
 }
